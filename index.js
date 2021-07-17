@@ -20,7 +20,7 @@ function solve(a, b, c) {
 }
 
 app.get('/', (req, res) => {
-  res.send('Hello Express app!')
+  res.redirect('https://app.example.io');
 });
 
 app.get('/solve', (req, res) => {
