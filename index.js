@@ -20,7 +20,7 @@ function solve(a, b, c) {
 }
 
 app.get('/', (req, res) => {
-  res.redirect('https://app.example.io');
+  res.redirect('https://github.com/codeforfunfelix/QuadFormAPI');
 });
 
 app.get('/solve', (req, res) => {
